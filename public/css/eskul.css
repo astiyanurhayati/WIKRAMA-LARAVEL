@@ -1,0 +1,48 @@
+.banner {
+    background-image: url("../img/eskulbannerfiks.png");
+    height: 250px;
+    background-position: center;
+}
+.contents {
+    padding-right: 50px;
+    margin: 50px 100px;
+}
+.page2 .eskul img {
+    width: 400px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.page2 {
+    margin-top: 10px;
+}
+.page2 .content-eskul h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.page2 .content-eskul .eskul {
+    max-width: 950px;
+    display: block;
+}
+
+footer {
+    margin: 0;
+}
+.contents {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+    .contents {
+        margin: 20px 50px;
+    }
+    .page2 .eskul img {
+        width: 300px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+}
+@media (max-width: 450px) {
+    .contents {
+        margin: 8px 25px;
+    }
+}

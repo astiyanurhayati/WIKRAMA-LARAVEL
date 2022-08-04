@@ -1,0 +1,41 @@
+.container {
+    background-color: aliceblue;
+}
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    height: 250px;
+    background-position: center;
+}
+
+.contents {
+    padding-right: 50px;
+    margin: 50px 100px;
+}
+.contents .content h3 {
+    border-bottom: solid orange 2px;
+    width: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.contents .foto img {
+    width: 200px;
+}
+footer {
+    margin: 0;
+}
+.contents {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+    .contents {
+        margin: 20px 50px;
+    }
+}
+@media (max-width: 450px) {
+    .contents {
+        margin: 8px 25px;
+    }
+}

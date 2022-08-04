@@ -1,0 +1,153 @@
+.contents {
+    padding-right: 50px;
+    margin: 50px 100px;
+}
+.content-kontak h3 {
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: solid orange 2px;
+    width: 100px;
+}
+
+.content-kontak h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+input[type="text"],
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+textarea {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.kontak input,
+textarea {
+    margin: 10px;
+}
+textarea {
+    height: 100px;
+    width: 440px;
+}
+.kontak {
+    display: flex;
+}
+.content-kontak {
+    width: 500px;
+}
+
+input[type="submit"] {
+    background-color: #316d86;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.content-kontak {
+    border-radius: 5px;
+
+    padding: 20px;
+}
+.content-kontak {
+    background-color: white;
+}
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    height: 250px;
+    background-position: center;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+}
+.contents .address-content ul li {
+    list-style: none;
+}
+.contents .address {
+    background-color: white;
+    padding: 50px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.address {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.address .address-content ul li i {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+.address .address-content ul li {
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+@media (max-width: 800px) {
+    .contents {
+        display: block;
+    }
+    .content-kontak .kontak,
+    textarea {
+        flex-direction: column;
+        width: 250px;
+    }
+    .contents {
+        margin: 50px 0;
+    }
+    .content-kontak {
+        width: 300px;
+        margin-bottom: 56px;
+    }
+
+    .textarea {
+        display: flex;
+        flex-direction: column;
+    }
+    .contents .address {
+        background-color: white;
+        padding: 25px;
+        margin-left: 0px;
+        font-size: 15px;
+        width: 300px;
+    }
+    .map {
+        text-align: center;
+    }
+    .content-kontak h2 {
+        font-size: 20px;
+    }
+    .content-kontak h3 {
+        font-size: 13px;
+        margin-left: 10px;
+        border-bottom: solid orange 2px;
+        width: 74px;
+    }
+}
+@media (max-width: 450px) {
+    .contents {
+        margin: 50px 0px;
+    }
+}

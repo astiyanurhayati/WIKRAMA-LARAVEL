@@ -1,0 +1,50 @@
+.container {
+    background-color: aliceblue;
+}
+
+.banner-judul {
+    padding: 100px;
+    color: White;
+}
+.banner-judul h3 span a {
+    color: orange;
+    text-decoration: none;
+}
+.banner-judul h3 a {
+    color: white;
+    text-decoration: none;
+}
+.banner-judul h3 {
+    font-weight: 500;
+}
+
+footer {
+    margin: 0;
+}
+.contents {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+    .contents {
+        margin: 20px 50px;
+    }
+    .banner-judul {
+        padding: 20px;
+        padding-left: 50px;
+        padding-top: 115px;
+    }
+    .banner-judul h1 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 450px) {
+    .contents {
+        margin: 8px 25px;
+    }
+    .banner-judul {
+        padding: 20px;
+        padding-left: 30px;
+        padding-top: 115px;
+    }
+}
